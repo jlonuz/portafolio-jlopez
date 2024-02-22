@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    /* box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, .3); */
+    /* background-color: rgba(0, 0, 0, .03); */
+}
+
+.banner {
+    background-image: url(../img/curinanco.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    color: #BBB9B9;
+    display: inline;
+}
+
+.menu-fondo {
+    background-color: black;
+    padding-top: 15px;
+}
+
+.navbar-default {
+    border-color: black;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #228896;
+    font-family: 'Josefin sans';
+    margin-right: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: #2BBFD3;
+}
+
+.profile {
+    padding-bottom: 30px;
+}
+
+.enlace:hover {
+    color: #228896;
+}
+
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 250px;
+    color: #ECE9E3;
+}
+
+.subtitle {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #C7C5C3;
+    padding-bottom: 250px;
+}
+
+.icon-title {
+    color: #228896;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.icon-title:hover {
+    color: #A9C52F;
+}
+
+#profile {
+    padding: 50px;
+}
+
+.perfil {
+    width: 80%;
+    max-width: 50%;
+    margin-bottom: 40px;
+}
+
+
+/*.aparecen {
+	display:none;
+	visibility: hidden;
+}*/
+
+
+/* .skills {
+	padding-bottom: 35px;
+
+
+} */
+
+.transition {
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.profile-title {
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hability {
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    padding: 15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.color-hability {
+    color: #228896;
+}
+
+.margen-profile {
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.icon {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#works {
+    padding: 80px;
+}
+
+#works h1 {
+    padding-bottom: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.works {
+    padding-bottom: 50px;
+    background-color: #228896;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 15px;
+    /* padding-top: 50px;
+    padding-bottom: 30px; */
+}
+
+.img-works {
+    max-width: 100%;
+    margin: 5px;
+    max-height: 350px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    border: 1px solid #1E2531;
+}
+
+.estilo-boton {
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 13px;
+}
+
+.estilo-boton:hover {
+    text-decoration: none;
+    color: #A9C52F;
+}
+
+.fa-github {
+    font-size: 25px;
+    color: black;
+}
+
+.fa-github:hover {
+    color: #A9C52F;
+}
+
+.iconos {
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    display: inline-block;
+}
+
+.iconos a {
+    color: #228896;
+    display: block;
+    text-align: center;
+}
+
+.iconos a span {
+    display: block;
+    padding-top: 20px;
+}
+
+.iconos a .fa {
+    font-size: 50px;
+}
+
+.iconos a:hover {
+    transition-duration: .7s;
+    color: #228896;
+    text-decoration: none;
+}
+
+.iconos:hover a {
+    color: white;
+}
+
+#contact {
+    padding: 80px;
+    background-color: #091a2d;
+    color: #fff;
+}
+
+.enlace {
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    padding: 20px;
+    color: #228896;
+    margin: 0;
+}
+
+.grid-item {
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.grid-item--width2 {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    /* height: 300px; */
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.bg:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    z-index: 2;
+    position: relative;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-weight: 300;
+    border: 10px solid rgba(0, 0, 0, 0);
+    opacity: 0;
+}
+
+
+/* .grid-item:hover .bg {
+    transform: scale(1.2);
+    overflow: hidden;
+} */
+
+.grid-item:hover .content {
+    opacity: 1;
+}
+
+.content h2 {
+    padding-bottom: 0;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+.content a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 15px;
+    z-index: 3;
+    position: relative;
+}
+
+.content a:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content::after {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    top: 0%;
+    left: 0%;
+}
+
+.foto-1 {
+    background-image: url('../img/pau.png');
+    background-size: 102%;
+}
+
+.foto-2 {
+    background-image: url('../img/enjoy.png');
+}
+
+.foto-3 {
+    background-image: url('../img/edb.png');
+}
+
+.foto-4 {
+    background-image: url('../img/home1.jpg');
+}
+
+.foto-5 {
+    background-image: url('../img/colunga.png');
+}
+
+.foto-6 {
+    background-image: url('../img/twitter2.png');
+}
+
+.foto-7 {
+    background-image: url('../img/maportafolio.png');
+}
+
+.white-text {
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+#contact .white-text {
+    color: #fff;
+    border: 3px solid white;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.gutter {
+    width: 4%;
+}
+
+.grid-item-text {
+    padding: 15px;
+    background-color: #093565;
+    color: #fff;
+}
+
+@media (max-width:767px) {
+    #works {
+        padding: 15px;
+        padding-top: 60px;
+    }
+    .grid-item {
+        width: 48%;
+    }
+    .gutter {
+        width: 2%;
+    }
+    #profile {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width:580px) {
+    .grid-item {
+        width: 100%;
+    }
+    .gutter {
+        width: 0;
+    }
+    #contact .white-text {
+        margin-bottom: 35px;
+    }
+    .content {
+        height: 450px;
+    }
+    .iconos a .fa {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:360px) {
+    .menu a {
+        margin-right: 20px;
+    }
+    #contact {
+        padding: 20px;
+        padding-top: 60px;
+    }
+    .title {
+        padding-top: 200px;
+    }
+    .iconos a .fa {
+        font-size: 30px;
+    }
+}
