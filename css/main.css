@@ -149,12 +149,22 @@ p {
     background-color: #228896;
 }
 
-h2 {
+
+.text-container {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap; /* Evita que el texto se desplace */
     font-family: 'Josefin Sans', sans-serif;
-    padding-bottom: 15px;
-    /* padding-top: 50px;
-    padding-bottom: 30px; */
+    padding-bottom: 30px;
+    overflow: hidden; /* Oculta el cursor que se desborda */
+
 }
+
+ /* Animación del cursor */
+ @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+  }
 
 .img-works {
     max-width: 100%;
