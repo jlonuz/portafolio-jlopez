@@ -9,8 +9,11 @@
     /* background-color: rgba(0, 0, 0, .03); */
 }
 
+h2 {
+    font-family: 'Josefin sans';
+}
 .banner {
-    background-image: url(../img/curinanco.jpeg);
+    background-image: url(../img/santiago.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
