@@ -12,11 +12,20 @@
 h2 {
     font-family: 'Josefin sans';
 }
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
 .banner {
     background-image: url(../img/curinanco.jpeg);
-    background-size: cover;
-    background-position: center;
+    background-size: inherit;
+    background-position: top;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .menu {
@@ -56,14 +65,12 @@ h2 {
 
 .title {
     font-family: 'Josefin Sans', sans-serif;
-    padding-top: 250px;
     color: #ECE9E3;
 }
 
 .subtitle {
     font-family: 'Josefin Sans', sans-serif;
     color: #C7C5C3;
-    padding-bottom: 250px;
 }
 
 .icon-title {
@@ -80,24 +87,16 @@ h2 {
     padding: 50px;
 }
 
+#profile .row.mt {
+    margin-top: 30px;
+}
+
 .perfil {
     width: 80%;
     max-width: 50%;
     margin-bottom: 40px;
 }
 
-
-/*.aparecen {
-	display:none;
-	visibility: hidden;
-}*/
-
-
-/* .skills {
-	padding-bottom: 35px;
-
-
-} */
 
 .transition {
     -ms-transition: .5s;
@@ -291,12 +290,6 @@ footer p {
     opacity: 0;
 }
 
-
-/* .grid-item:hover .bg {
-    transform: scale(1.2);
-    overflow: hidden;
-} */
-
 .grid-item:hover .content {
     opacity: 1;
 }
@@ -387,8 +380,15 @@ footer p {
 }
 
 @media (max-width:767px) {
+    /* .banner {
+        background-size: cover;
+        background-attachment: unset;
+    } */
+    .container-fluid {
+        margin-bottom: 0;
+    }
     #works {
-        padding: 15px;
+        padding: 25px;
         padding-top: 60px;
     }
     .grid-item {
