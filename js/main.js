@@ -1,11 +1,11 @@
 // Galery masonry effect
-$('.grid').isotope({
-    itemSelector: '.grid-item',
-    percentPosition: true,
-    masonry: {
-        gutter: '.gutter'
-    }
-});
+// $('.grid').isotope({
+//     itemSelector: '.grid-item',
+//     percentPosition: true,
+//     masonry: {
+//         gutter: '.gutter'
+//     }
+// });
 // Authomatic scroll
 $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {

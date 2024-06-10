@@ -22,8 +22,8 @@ h2 {
 
 .banner {
     background-image: url(../img/curinanco.jpeg);
-    background-size: inherit;
-    background-position: top;
+    background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
