@@ -148,7 +148,14 @@ p {
 
 .works {
     padding-bottom: 50px;
-    background-color: #228896;
+    /* background-color: #228896; */
+    background-image: url('../img/presencia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    /* height: 300px; */
+    height: 100%;
 }
 
 
@@ -330,7 +337,7 @@ footer p {
 
 .foto-1 {
     background-image: url('../img/pau.png');
-    background-size: 102%;
+    /* background-size: 102%; */
 }
 
 .foto-2 {
@@ -354,7 +361,7 @@ footer p {
 }
 
 .foto-7 {
-    background-image: url('../img/maportafolio.png');
+    background-image: url('../img/ma_mobile.png');
 }
 
 .white-text {
